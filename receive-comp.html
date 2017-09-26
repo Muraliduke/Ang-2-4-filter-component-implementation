@@ -1,0 +1,6 @@
+ <table>
+      <tr *ngFor="let song of songs | filter : filVal">
+        <td>{{song.title}}</td>
+        <td>{{song.likes}}</td>
+      </tr>
+ </table>
